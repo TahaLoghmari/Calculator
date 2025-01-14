@@ -41,7 +41,7 @@ result.addEventListener("click",() =>
     {
         if ( operations[i] === "+" ) result += numbers[i+1] ; 
         else if ( operations[i] === "-" ) result -= numbers[i+1] ; 
-        else if ( operations[i] === "*" ) result *= numbers[i+1] ; 
+        else if ( operations[i] === "x" ) result *= numbers[i+1] ; 
         else if ( operations[i] === "/" ) result /= numbers[i+1] ; 
         else if ( operations[i] === "%" ) result %= numbers[i+1] ; 
     }
