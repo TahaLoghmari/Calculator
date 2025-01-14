@@ -46,4 +46,5 @@ result.addEventListener("click",() =>
         else if ( operations[i] === "%" ) result %= numbers[i+1] ; 
     }
     CurrentNumber.innerHTML = result ; 
+    num = result ; 
 })
