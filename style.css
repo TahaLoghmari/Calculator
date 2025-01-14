@@ -69,9 +69,13 @@ button {
   width: 100%;
   height: 70%;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 .CurrentOperation {
   width: 100%;
   height: 30%;
   color: #61717e;
+  font-size: 16px;
 }
